@@ -27,11 +27,11 @@ class ExerciseTile extends StatelessWidget {
             BoxShadow(
               color: Colors.grey,
               offset: Offset(
-                5.0,
+                3.0,
                 5.0,
               ), //Offset
-              blurRadius: 10.0,
-              spreadRadius: 2.0,
+              blurRadius: 5.0,
+              spreadRadius: 0.0,
             ), //BoxShadow
           ],
         ),

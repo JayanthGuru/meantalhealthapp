@@ -178,11 +178,28 @@ class _MyHomePageState extends State<MyHomePage> {
 
           Expanded(
             child: Container(
-              color: Colors.grey[200],
+              decoration: BoxDecoration(
+                color: Colors.grey[200],
+                borderRadius: const BorderRadius.only(
+                  topLeft: Radius.circular(50),
+                  topRight: Radius.circular(50),
+                ),
+              ),
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25.0),
                 child: Column(
                   children: [
+
+                    Center(
+                      child: Padding(
+                        padding: const EdgeInsets.only(top: 8.0),
+                        child: Container(
+                          color: Colors.grey[600],
+                          width: 50,
+                          height: 5,
+                        ),
+                      ),
+                    ),
 
                     const SizedBox(height: 25),
 
