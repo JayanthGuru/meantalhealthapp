@@ -1,6 +1,8 @@
 # meantalhealthapp
 
-A new Flutter project.
+A new Flutter UI project for Mental Health App.
+
+![screenshot](flutter_01.png)
 
 ## Getting Started
 
