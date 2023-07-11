@@ -23,6 +23,17 @@ class ExerciseTile extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(16),
+          boxShadow: const [
+            BoxShadow(
+              color: Colors.grey,
+              offset: Offset(
+                5.0,
+                5.0,
+              ), //Offset
+              blurRadius: 10.0,
+              spreadRadius: 2.0,
+            ), //BoxShadow
+          ],
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
